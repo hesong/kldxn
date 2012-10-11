@@ -1,5 +1,5 @@
-tmp/*
-config/database.php
-app/tmp/*
-app/config/database.php
-!empty
+index/Runtime/*
+data/items/*
+admin/Runtime/*
+!index/Runtime/~runtime.php
+!admin/Runtime/~runtime.php
