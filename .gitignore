@@ -1,5 +1,5 @@
 index/Runtime/*
 data/items/*
+data/logs
 admin/Runtime/*
-!index/Runtime/~runtime.php
-!admin/Runtime/~runtime.php
+.svn/

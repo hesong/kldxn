@@ -1,9 +1,9 @@
 <?php
 return array (
   'DB_HOST' => 'localhost',
-  'DB_NAME' => 'xo',
-  'DB_USER' => 'root',
-  'DB_PWD' => '',
+  'DB_NAME' => 'u117670_xo',
+  'DB_USER' => 'u117670',
+  'DB_PWD' => 'GIUEFvuM',
   'DB_PORT' => '3306',
   'DB_PREFIX' => 'pp_',
   'DEFAULT_THEME' => 'default',

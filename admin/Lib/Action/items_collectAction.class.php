@@ -233,6 +233,7 @@ class items_collectAction extends baseAction
         $req->setPageNo($p);
         $req->setPageSize(40);
         $resp = $tb_top->execute($req);
+		//print_r($resp);exit;
         $goods_list = (array)$resp->taobaoke_items;
         //print_r($goods_list);exit;
 
