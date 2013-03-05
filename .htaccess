@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^c-([0-9]+)	index.php?m=cate&a=index&cid=$1	[L]
+RewriteRule ^item-([0-9]+).html	?m=item&a=index&id=$1	[L]
+#RewriteRule ^([^/]+)/([^/]+)$	?m=$1&a=$2	[L]
+#RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)$	?m=$1&a=$2&$3=$4	[L]
+
+RewriteRule ^uc/([^/]+)$	?m=uc&a=$1	[L]
+RewriteRule ^(item|cate|article)/(tao|tag|index)/(id|tag)/([^/]+)$	?m=$1&a=$2&$3=$4	[L]
